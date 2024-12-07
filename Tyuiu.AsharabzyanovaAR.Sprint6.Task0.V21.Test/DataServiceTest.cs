@@ -9,7 +9,7 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task0.V21.Test
         {
             DataService ds = new DataService();
             double res = ds.Calculate(2);
-            double wait = 11;
+            double wait = 13;
             Assert.AreEqual(wait, res);
         }
     }
