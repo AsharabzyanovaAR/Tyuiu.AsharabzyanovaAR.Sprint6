@@ -59,7 +59,7 @@
             // textBoxRes_AAR
             // 
             textBoxRes_AAR.Font = new Font("Consolas", 9F);
-            textBoxRes_AAR.Location = new Point(6, 58);
+            textBoxRes_AAR.Location = new Point(6, 55);
             textBoxRes_AAR.Multiline = true;
             textBoxRes_AAR.Name = "textBoxRes_AAR";
             textBoxRes_AAR.ReadOnly = true;
