@@ -146,6 +146,7 @@
             buttonSpravka_AAR.TabIndex = 4;
             buttonSpravka_AAR.Text = "Справка";
             buttonSpravka_AAR.UseVisualStyleBackColor = false;
+            buttonSpravka_AAR.Click += buttonSpravka_AAR_Click;
             // 
             // groupBoxVivod_AAR
             // 

@@ -58,11 +58,11 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task4.V3
 
         private void buttonSoxr_AAR_Click(object sender, EventArgs e)
         {
-            try 
+            try
             {
                 string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask4.txt";
                 File.WriteAllText(path, textBoxRes_AAR.Text);
-                DialogResult dialogResult = MessageBox.Show("Файл" + path + "сохранен успешно\nОткрыть его в блокноте?","Сообщение",MessageBoxButtons.YesNo,MessageBoxIcon.Information);
+                DialogResult dialogResult = MessageBox.Show("Файл" + path + "сохранен успешно\nОткрыть его в блокноте?", "Сообщение", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                 if (dialogResult == DialogResult.Yes)
                 {
                     System.Diagnostics.Process txt = new System.Diagnostics.Process();
@@ -75,7 +75,12 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task4.V3
             {
                 MessageBox.Show("Сбой при сохранении файла", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-           
+
+
+        }
+
+        private void buttonSpravka_AAR_Click(object sender, EventArgs e)
+        {
 
         }
     }
