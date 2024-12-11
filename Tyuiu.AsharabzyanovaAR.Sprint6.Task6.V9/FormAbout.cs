@@ -12,11 +12,20 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task6.V9
 {
     public partial class FormAbout_AAR : Form
     {
-        
+        public FormAbout_AAR()
+        {
+            InitializeComponent();
+        }
+
 
         private void buttonOK_AAR_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void labelIN_AAR_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

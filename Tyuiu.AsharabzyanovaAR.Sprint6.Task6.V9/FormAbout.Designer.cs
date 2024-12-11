@@ -52,6 +52,7 @@
             labelIN_AAR.Size = new Size(402, 160);
             labelIN_AAR.TabIndex = 1;
             labelIN_AAR.Text = resources.GetString("labelIN_AAR.Text");
+            labelIN_AAR.Click += labelIN_AAR_Click;
             // 
             // buttonOK_AAR
             // 
