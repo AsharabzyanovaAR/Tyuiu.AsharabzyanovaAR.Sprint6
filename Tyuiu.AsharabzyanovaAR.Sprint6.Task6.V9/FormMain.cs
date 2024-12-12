@@ -15,7 +15,7 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task6.V9
         private void buttonDone_AAR_Click(object sender, EventArgs e)
         {
             string str = "";
-            textBoxVivod_AAR.Text = ds.CollectTextFromFile(str, openFilePath);
+            textBoxVivod_AAR.Text = ds.CollectTextFromFile(openFilePath);
 
         }
 

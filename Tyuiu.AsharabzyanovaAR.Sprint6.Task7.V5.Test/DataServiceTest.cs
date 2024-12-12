@@ -7,13 +7,13 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task7.V5.Test
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual(true, File.Exists(@"C:\Users\User\source\repos\Tyuiu.SaigafarovBI.Sprint6\gg.csv"));
+            Assert.AreEqual(true, File.Exists(@"C:\DataSprint6\InPutDataFileTask7V5.csv"));
         }
         [TestMethod]
         public void ValidCalc()
         {
-            DataService dataService = new DataService();
-            string path = @"C:\Users\User\source\repos\Tyuiu.SaigafarovBI.Sprint6\gg.csv";
+            DataService ds = new DataService();
+            string path = @"C:\DataSprint6\InPutDataFileTask7V5.csv";
 
             int[,] wait = new int[10, 10]
             {

@@ -22,7 +22,7 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task7.V5
         private void buttonDone_AAR_Click(object sender, EventArgs e)
         {
             int[,] arrayValues = new int[rows, columns];
-            arrayValues = dataService.GetMatrix(LoadFromFileData(openFilePath));
+            arrayValues = dataService.GetMatrix(openFilePath);
             for (int r = 0; r < rows; r++)
             {
                 for (int c = 0; c < columns; c++)
@@ -80,7 +80,7 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task7.V5
                     dataGridViewVvod_AAR.Rows[r].Cells[c].Value = arrayValues[r, c];
                 }
             }
-            arrayValues = dataService.GetMatrix(LoadFromFileData(openFilePath));
+            arrayValues = dataService.GetMatrix(openFilePath);
             buttonDone_AAR.Enabled = true;
 
 
