@@ -4,7 +4,7 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task6.V9.Lib
 {
     public class DataService : ISprint6Task6V9
     {
-        public string CollectTextFromFile(string str, string path)
+        public string CollectTextFromFile(string path)
         {
             string result = "";
             using (StreamReader reader = new StreamReader(path))

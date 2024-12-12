@@ -1,6 +1,6 @@
-﻿namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task6.V9
+﻿namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task7.V5
 {
-    partial class FormAbout_AAR
+    partial class FormAbout
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout_AAR));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout));
             pictureBoxAlina_AAR = new PictureBox();
-            labelIN_AAR = new Label();
+            label1 = new Label();
             buttonOK_AAR = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBoxAlina_AAR).BeginInit();
             SuspendLayout();
@@ -38,25 +38,24 @@
             // pictureBoxAlina_AAR
             // 
             pictureBoxAlina_AAR.Image = (Image)resources.GetObject("pictureBoxAlina_AAR.Image");
-            pictureBoxAlina_AAR.Location = new Point(1, 12);
+            pictureBoxAlina_AAR.Location = new Point(12, 23);
             pictureBoxAlina_AAR.Name = "pictureBoxAlina_AAR";
-            pictureBoxAlina_AAR.Size = new Size(199, 151);
+            pictureBoxAlina_AAR.Size = new Size(202, 151);
             pictureBoxAlina_AAR.TabIndex = 0;
             pictureBoxAlina_AAR.TabStop = false;
             // 
-            // labelIN_AAR
+            // label1
             // 
-            labelIN_AAR.AutoSize = true;
-            labelIN_AAR.Location = new Point(206, 12);
-            labelIN_AAR.Name = "labelIN_AAR";
-            labelIN_AAR.Size = new Size(402, 160);
-            labelIN_AAR.TabIndex = 1;
-            labelIN_AAR.Text = resources.GetString("labelIN_AAR.Text");
-            labelIN_AAR.Click += labelIN_AAR_Click;
+            label1.AutoSize = true;
+            label1.Location = new Point(231, 34);
+            label1.Name = "label1";
+            label1.Size = new Size(402, 140);
+            label1.TabIndex = 1;
+            label1.Text = resources.GetString("label1.Text");
             // 
             // buttonOK_AAR
             // 
-            buttonOK_AAR.Location = new Point(514, 163);
+            buttonOK_AAR.Location = new Point(539, 182);
             buttonOK_AAR.Name = "buttonOK_AAR";
             buttonOK_AAR.Size = new Size(94, 29);
             buttonOK_AAR.TabIndex = 2;
@@ -64,20 +63,20 @@
             buttonOK_AAR.UseVisualStyleBackColor = true;
             buttonOK_AAR.Click += buttonOK_AAR_Click;
             // 
-            // FormAbout_AAR
+            // FormAbout
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(624, 204);
+            ClientSize = new Size(645, 223);
             Controls.Add(buttonOK_AAR);
-            Controls.Add(labelIN_AAR);
+            Controls.Add(label1);
             Controls.Add(pictureBoxAlina_AAR);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             MinimizeBox = false;
-            Name = "FormAbout_AAR";
+            Name = "FormAbout";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "О программе";
+            Text = "О разработчике";
             ((System.ComponentModel.ISupportInitialize)pictureBoxAlina_AAR).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -86,7 +85,7 @@
         #endregion
 
         private PictureBox pictureBoxAlina_AAR;
-        private Label labelIN_AAR;
+        private Label label1;
         private Button buttonOK_AAR;
     }
 }

@@ -14,7 +14,7 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task7.V5.Test
         {
             DataService dataService = new DataService();
             string path = @"C:\Users\User\source\repos\Tyuiu.SaigafarovBI.Sprint6\gg.csv";
-            
+
             int[,] wait = new int[10, 10]
             {
                 {15,3,-4,-12,-2, 11, 10, -4, -17, 5},
@@ -31,4 +31,5 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task7.V5.Test
             };
             CollectionAssert.AreEqual(ds.GetMatrix(path), wait);
         }
+    }
 }

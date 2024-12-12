@@ -5,18 +5,14 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint6.Task7.V5.Lib
     {
         public int[,] GetMatrix(int[,] matrix)
         {
-            int rows = matrix.GetLength(0) + 1;
-            int columns = matrix.Length / rows;
-            int xCol = 2;
-            for (int r = 0; r < rows; r++) 
+            int rows = matrix.GetLength(0);
+            int columns = matrix.GetLength(1);
+            
+            for (int j = 0; j < rows; j++)
             {
-                for (int c = xCol; c <= xCol; c++) 
+                if (matrix[j, 9] < 2)
                 {
-                    if (matrix[r, c]< 2&&columns==10)
-                    {
-                        matrix[r, c] = 2;
-
-                    }
+                    matrix[j, 9] = 2; 
                 }
             }
             return matrix;
